@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Contact Us - Car Lunatics</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cars.html">Cars</a></li>
+                <li><a href="about.html">About Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="contact-info">
+        <h2>Contact Information</h2>
+        <p>If you have any questions or feedback, feel free to reach out to us using the following contact methods:</p>
+        <ul>
+            <li>Email: <a href="mailto:info@carenthusiasts.com">info@carenthusiasts.com</a></li>
+            <li>Phone: +1 (123) 456-7890</li>
+            <li>Address: 123 Car Enthusiast Lane, Auto City, CA 12345</li>
+        </ul>
+    </section>
+
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <p>Alternatively, you can send us a message using the contact form below:</p>
+        <form action="submit_form.php" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Car Lunatics</p>
+    </footer>
+</body>
+</html>
